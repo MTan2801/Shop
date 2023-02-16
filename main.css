@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+.header{
+    background-color: #fff;
+    top: 0%;
+    width: 100%;
+    max-height: 70px;
+    line-height: 90px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: fixed;
+}
+.logo{
+    float: left;
+    margin-right: 55px;
+    margin-left: 159px;
+}
+.main-menu ul {
+    list-style:  none;
+}
+.header .main-menu ul li a{
+    float: left;
+    line-height: 50px;
+    padding: 20px 10px 20px 0px;
+    margin: 0px 4px 0px 14px;
+    text-decoration: none;
+    color: #000;
+}
+.icon-mainmenu{
+    float: right;
+    margin-right: 159px;
+}
+.banner{
+    width: auto;
+    height: 280px;
+}
+.new-list{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner .new-list .new-item{
+    padding: 1%;
+    height: 248px;
+    float: left;
+    border: 2px solid #ccc;
+    margin-right: 4%;
+}
+.banner .new-list .new-item img{
+    width: 368px;
+    height: 248px;
+}
+#fix{
+    margin-right: 0;
+}
+#fix2{
+    margin: unset;
+    padding-left: 10px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.banner-block1{
+    margin-top: -200px;
+    position: static;
+    text-align: center;
+    margin-left: 30px;
+}
+.block1-child1 {
+    margin-top: -200px;
+    text-align: left;
+    margin-left: 30px;
+}
+.name{
+    position: static;
+    font-size: 30px;
+}
+.product{
+    margin:100px 169px 0px 169px;
+    position: static;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 36px;
+}
+.menu ul li {
+    float: left;
+    line-height: 50px;
+    padding: 20px 10px 20px 0px;
+    margin-right:  18px;
+    text-decoration: none;
+    color: #000;
+    align-items: center;
+    list-style: none;
+
+}
+.search{
+    display: block;
+    width: 300px;
+    float: right;
+    line-height: 50px;
+    padding: 20px 10px 20px 0px;
+}
+.box{
+    border: 1px solid #e6e6e6;
+    border-radius: 2px;
+}
+i{
+    height: 60px;
+    width:38px;
+    margin: 0 10px;
+}
+.text{
+    border: none;
+    width: calc(100% - 38px);
+    height: 40px;
+    font-size: 42px;
+    line-height: 1.625;
+}
+.filter{
+    display: block;
+    width: 100px;
+    float: right;
+    line-height: 55px;
+    padding: 20px 10px 20px 0px;
+}
+img{
+    width: 270px;
+}
+#fix3{
+    width: 100%;
+}
+.row{
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px, -15px;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+.product-item{
+    display: flex;
+    max-width: 25%;
+    width: 270px;
+    padding:0 15px 35px 15px;
+}
+.product-item2{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+.block2{
+    display: flex;
+    width: 100% ;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.icon1{
+    display: flex;
+    align-content: flex-end;
+    width: 70px;
+    flex-direction: row-reverse;
+}
+.loadmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+.load{
+    min-width: 179px;
+    height: 46px;
+    background-color: #e6e6e6;
+    border-radius: 23px;
+    text-align: center;
+    line-height: 3rem;
+}
+.foot{
+    background-color: #222;
+}
+.container-foot{
+    padding:0 179px;
+}
+h4{
+    color: #fff;
+    text-transform: uppercase;
+    width: 270px;
+    margin-bottom:40px ;
+}
+.foot .foot-block1 ul li a{
+    color: #B2B2B2;
+    list-style: none;
+}
+.row-foot{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+ul li{
+    text-decoration: none;
+    list-style: none;
+    line-height: 45px;
+
+}
+.text-foot{
+    color: #B2B2B2;
+    line-height: 30px;  
+    margin-bottom: 30px;
+}
+.icon{
+    color: #B2B2B2;
+}
+
+.form{
+    display: block;
+    width: 300px;
+}
+.sub-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+i{
+    height: 60px;
+    width:38px;
+    margin-left: 10px;
+}
+.sub{
+    min-width: 179px;
+    height: 46px;
+    background-color: #e6e6e6;
+    border-radius: 23px;
+    text-align: center;
+    line-height: 3rem;
+}
+.text-form{
+    background-color: #222;
+    border: none;
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    color: #B2B2B2;
+    border-bottom-style: groove;
+    border-color: #B2B2B2;
+    margin-bottom: 10px;
+}
