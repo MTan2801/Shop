@@ -109,17 +109,18 @@ h1{
 .box{
     border: 1px solid #e6e6e6;
     border-radius: 2px;
+    height: 50px;
 }
 i{
     height: 60px;
-    width:38px;
+    width:60px;
     margin: 0 10px;
 }
 .text{
     border: none;
     width: calc(100% - 38px);
     height: 40px;
-    font-size: 42px;
+    font-size: 18px;
     line-height: 1.625;
 }
 .filter{
@@ -251,4 +252,9 @@ i{
     border-bottom-style: groove;
     border-color: #B2B2B2;
     margin-bottom: 10px;
+}
+@media only screen and (max-width:600px) {
+    body{
+        background-color: antiquewhite;
+    }
 }
